@@ -5,6 +5,10 @@ body {
 
 .alert-container {}
 
+.quotes-container {}
+
+.features-container {}
+
 .callout-container {
     height: 100vh;
     
@@ -30,26 +34,40 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
-.quotes-container {}
+/*Navbar*/
 
-.features-container {}
-
-
-.block-divider {
-    width:75px;
-    height:5px;
-    border:0;
-    background-color:#f05f40;
-}
-
-.block-divider--organge {
-    background-color:#f05f40;
-}
-
-.block-divider--short {
-    width:35px;
+.navbar-container {
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left: 0;
+    padding-right:0;
+    z-index:1;
+    
     
 }
+
+.navbar {
+    margin-bottom: 0;
+    border:0;
+    width:100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border:0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav {
+    font-weight: bold;
+}
+
+
+/*Jumbotron*/
 
 .jumbotron {
     background-color:transparent;
@@ -67,6 +85,29 @@ body {
     color:#d0d0d0;
     
 }
+
+
+/*Block dividers*/
+
+.block-divider {
+    width:75px;
+    height:5px;
+    border:0;
+    background-color:#f05f40;
+}
+
+.block-divider--organge {
+    background-color:#f05f40;
+}
+
+.block-divider--short {
+    width:35px;
+    
+}
+
+
+/*Buttons*/
+
 
 .btn--cta {
     font-weight:bold;
@@ -87,3 +128,4 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
